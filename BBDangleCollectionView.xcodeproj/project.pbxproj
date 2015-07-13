@@ -14,6 +14,8 @@
 		1994F0EB1B535CDE00AD09BE /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1994F0EA1B535CDE00AD09BE /* Images.xcassets */; };
 		1994F0EE1B535CDE00AD09BE /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1994F0EC1B535CDE00AD09BE /* LaunchScreen.xib */; };
 		1994F0FA1B535CDE00AD09BE /* BBDangleCollectionViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1994F0F91B535CDE00AD09BE /* BBDangleCollectionViewTests.m */; };
+		1994F1081B5360CE00AD09BE /* BBDangleCollectionView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1994F1071B5360CE00AD09BE /* BBDangleCollectionView.m */; };
+		1994F10B1B53610200AD09BE /* BBDangleView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1994F10A1B53610200AD09BE /* BBDangleView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +42,10 @@
 		1994F0F31B535CDE00AD09BE /* BBDangleCollectionViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BBDangleCollectionViewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1994F0F81B535CDE00AD09BE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1994F0F91B535CDE00AD09BE /* BBDangleCollectionViewTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BBDangleCollectionViewTests.m; sourceTree = "<group>"; };
+		1994F1061B5360CE00AD09BE /* BBDangleCollectionView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BBDangleCollectionView.h; path = Views/BBDangleCollectionView.h; sourceTree = "<group>"; };
+		1994F1071B5360CE00AD09BE /* BBDangleCollectionView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BBDangleCollectionView.m; path = Views/BBDangleCollectionView.m; sourceTree = "<group>"; };
+		1994F1091B53610200AD09BE /* BBDangleView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BBDangleView.h; path = Views/BBDangleView.h; sourceTree = "<group>"; };
+		1994F10A1B53610200AD09BE /* BBDangleView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BBDangleView.m; path = Views/BBDangleView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,6 +91,10 @@
 				1994F0E21B535CDE00AD09BE /* AppDelegate.m */,
 				1994F0E41B535CDE00AD09BE /* ViewController.h */,
 				1994F0E51B535CDE00AD09BE /* ViewController.m */,
+				1994F1061B5360CE00AD09BE /* BBDangleCollectionView.h */,
+				1994F1071B5360CE00AD09BE /* BBDangleCollectionView.m */,
+				1994F1091B53610200AD09BE /* BBDangleView.h */,
+				1994F10A1B53610200AD09BE /* BBDangleView.m */,
 				1994F0E71B535CDE00AD09BE /* Main.storyboard */,
 				1994F0EA1B535CDE00AD09BE /* Images.xcassets */,
 				1994F0EC1B535CDE00AD09BE /* LaunchScreen.xib */,
@@ -219,7 +229,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1994F1081B5360CE00AD09BE /* BBDangleCollectionView.m in Sources */,
 				1994F0E61B535CDE00AD09BE /* ViewController.m in Sources */,
+				1994F10B1B53610200AD09BE /* BBDangleView.m in Sources */,
 				1994F0E31B535CDE00AD09BE /* AppDelegate.m in Sources */,
 				1994F0E01B535CDE00AD09BE /* main.m in Sources */,
 			);
